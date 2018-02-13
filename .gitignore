@@ -1,0 +1,6 @@
+ERP-UI/.settings/**
+ERP-UI/.classpath
+ERP-UI/.project
+**/.settings/**
+**/.idea/**
+ERP-UI-DEV/build/**
