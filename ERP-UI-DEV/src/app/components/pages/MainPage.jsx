@@ -2,7 +2,7 @@ import React from 'react';
 import { Link,hashHistory} from 'react-router';
 import { connect } from 'react-redux'
 import axios from 'axios';
-import * as ApiUrls from '../../config/imt-config.js'
+import * as ApiUrls from '../../config/app-config.js'
 
 
 
@@ -11,7 +11,6 @@ export class MainPage extends React.Component  {
 
 	constructor(props) {
 		super(props);
-		//this.renderToRole=this.renderToRole.bind(this);
 	}
 
 	
@@ -23,12 +22,11 @@ export class MainPage extends React.Component  {
 	
 
 	render() {
-		//console.log(this.props.queueKpis.data);
+
 		const clearFixStyle={
 			clear:'both'
 		};
 
-		//let dashboardPanel=this.renderToRole();
 
 		return (
 	        <div>			

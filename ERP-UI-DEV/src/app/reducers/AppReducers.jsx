@@ -6,7 +6,7 @@ import  {initialState} from '../state/InitialState.jsx';
 import  AuthenticationReducer from './AuthenticationReducer.jsx';
 
 
-export default function ImtReducers(state = initialState, action) {
+export default function AppReducers(state = initialState, action) {
     return {
         auth: AuthenticationReducer(state.auth, action),
     }
